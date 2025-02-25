@@ -17,8 +17,40 @@ h1 {
     color: white;
     -webkit-text-stroke: 2px rgb(49, 23, 23);
     font-size: 50px;
+    text-align: center;
 }
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    font-size: 20px;
+    margin-right: 500px;
+    background-color: lightskyblue;
+    display: inline-block; 
+    padding: 15px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+h3{
+    background-color: lightskyblue;
+    display: inline-block; 
+    padding: 15px;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hoofding {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Dit centreert de inhoud horizontaal */
+    gap: 10px;
+ 
+}
+.logo {
+    width: 140px; 
+    height: auto;
+    align-items: center;
+   
 
+}
 table {
     width: 90%;
     border-collapse: collapse;
@@ -28,9 +60,8 @@ table {
 
 th,
 td {
-    
-    border: 1px solid #ddd;
-    padding: 8px;
+    border-bottom: 1px solid #949494;
+    padding: 10px;
 }
 
 th:first-child, td:first-child {
@@ -39,7 +70,9 @@ th:first-child, td:first-child {
 th:last-child, td:last-child {
     border-radius: 0 15px 15px 0;
 }
-
+tr:hover {
+    background-color: lightskyblue;
+}
 
 th {
     background-color: #f2f2f2;
