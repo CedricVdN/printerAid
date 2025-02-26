@@ -49,7 +49,7 @@ window.onload = async function() {
   }
 }
  // Replace 'ESP32_IP' with the actual IP address of your ESP32
- const ws = new WebSocket('ws://10.16.1.52:81');
+ const ws = new WebSocket('ws://10.16.1.50:81');
 
 let lastTimestamp = Date.now();
 let lastState = false;
