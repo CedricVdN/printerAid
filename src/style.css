@@ -29,6 +29,9 @@ h2{
     padding: 15px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
+    box-shadow: 8px 8px rgb(99, 190, 247);
+
+
 }
 h3{
     background-color: lightskyblue;
@@ -57,13 +60,11 @@ table {
     margin-left: auto;
     margin-right: auto;
 }
-
 th,
 td {
     border-bottom: 1px solid #949494;
     padding: 10px;
 }
-
 th:first-child, td:first-child {
     border-radius: 15px 0 0 15px;
 }
